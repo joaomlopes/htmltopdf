@@ -1,0 +1,4 @@
+services:
+#    jl_html_to_pdf.example:
+#        class: joaomlopes\HtmlToPDFBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]
