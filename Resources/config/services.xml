@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<container xmlns="http://symfony.com/schema/dic/services"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <services>
+
+        <!-- TCPDF service -->
+        <service id="jl_html_to_pdf.htpdf" class="joaomlopes\HtmlToPDFBundle\Entity\JLHTMLToPDF">
+            <file>%jl_html_to_pdf.file%</file>
+            <!--<argument>%jl_html_to_pdf.class%</argument>-->
+            <argument>%jl_html_to_pdf.tcpdf%</argument>
+        </service>
+
+    </services>
+
+</container>
