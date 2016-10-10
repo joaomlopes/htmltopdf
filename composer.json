@@ -24,10 +24,5 @@
   },
   "target-dir" : "joaomlopes/HtmlToPDFBundle",
   "repositories" : [{
-  }],
-  "extra" : {
-    "branch-alias" : {
-      "dev-master" : "v0.01"
-    }
-  }
+  }]
 }
